@@ -12,6 +12,7 @@
 <br>
 
 <h1>会員登録</h1>
+<h3>ブランクが一つでもあるとその箇所にエラーメッセージが表示されます。メールアドレスも重複がないようにSQLのSELECTで判定しています。エラーがひとつもなければ確認画面に飛びます。</h3>
 <img width="800" alt="掲示版1" src="https://user-images.githubusercontent.com/97508941/159472035-e68df3bf-f011-4be4-bf88-1d8d3a76869c.png"><br>
 <br>
 
@@ -37,10 +38,17 @@
 <br>
 
 <h1>工夫したポイント</h1>
-<h3>検索した内容だけでなく件数も表示したかったので検索のSQLと件数カウントのSQLを分けて先に（index.phpで)件数のカウントを行いその結果をセッションで(seach.phpに)表示するようにしました。</h3>
-<img width="800" alt="seach" src="https://user-images.githubusercontent.com/97508941/160088849-ab5dec4d-c1d3-4a19-b1f5-1855c68c8e1c.png">
+<h3>
+  検索した内容だけでなく件数も表示したかったので検索のSQLと件数カウントのSQLを分けて先に（index.phpで)件数のカウントを行いその結果をセッションで(seach.phpに)表示するよう   にしました。
+</h3>
 
+index.php
 <img width="800" alt="count" src="https://user-images.githubusercontent.com/97508941/160088905-ca630706-ef61-4b22-a586-b76bc9ea273d.png">
+
+search.php
+<img width="800" alt="search" src="https://user-images.githubusercontent.com/97508941/160088849-ab5dec4d-c1d3-4a19-b1f5-1855c68c8e1c.png">
+
+
 
 
 
