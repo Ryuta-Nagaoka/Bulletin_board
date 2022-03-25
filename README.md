@@ -13,8 +13,9 @@
 
 <h1>会員登録</h1>
 <h3>ブランクが一つでもあるとその箇所にエラーメッセージが表示されます。メールアドレスも重複がないようにSQLのSELECTで判定しています。エラーがひとつもなければ確認画面に飛びます。</h3>
-<img width="800" alt="掲示版1" src="https://user-images.githubusercontent.com/97508941/159472035-e68df3bf-f011-4be4-bf88-1d8d3a76869c.png"><img width="1001" alt="スクリーンショット 2022-03-25 17 37 48" src="https://user-images.githubusercontent.com/97508941/160149091-aa325fdf-fb78-448e-a2a1-4e11e90f0cca.png">
-<img width="1001" alt="スクリーンショット 2022-03-25 17 37 48" src="https://user-images.githubusercontent.com/97508941/160149091-aa325fdf-fb78-448e-a2a1-4e11e90f0cca.png">
+<img width="800" alt="掲示版1" src="https://user-images.githubusercontent.com/97508941/159472035-e68df3bf-f011-4be4-bf88-1d8d3a76869c.png">
+<img width="" alt="スクリーンショット 2022-03-26 0 16 24" src="https://user-images.githubusercontent.com/97508941/160151797-569d2d93-9a64-4c86-82c9-24b9286b6bee.png">
+
 <br>
 
 <h1>入力内容の確認</h1>
