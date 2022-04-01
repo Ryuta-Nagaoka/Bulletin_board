@@ -3,12 +3,15 @@
 <h3>ひとこと掲示板</h3>
 <br>
 
-<h1>実装機能</h1>
-<h3>データベースを用いて会員登録機能、CRUD機能をつけた簡易掲示版です。</h3>
+<h1>作品説明</h1>
+<h3>
+  データベースを用いた簡易掲示版です。
+  （検索機能を後から追加しました。）
+</h3>
 <br>
 
 <h1>使用した技術</h1>
-<h2>HTML、CSS、PHP、MySQL</h2>
+<h3>HTML、CSS、PHP、MySQL</h3>
 <br>
 
 <h1>会員登録</h1>
@@ -19,7 +22,8 @@
 <br>
 
 <h1>入力内容の確認</h1>
-<img width="800" alt="掲示版2" src="https://user-images.githubusercontent.com/97508941/159472212-9b6a2ce2-1caa-4ba2-a150-dcf636eb7249.png"><br>
+<h3>確認画面には入力した内容をが表示され、確認するボタンを押すとデータベースに会員情報が保存されます。そして完了画面が表示されます。/h3>
+<img width="800" alt="掲示版2"　src="https://user-images.githubusercontent.com/97508941/159472212-9b6a2ce2-1caa-4ba2-a150-dcf636eb7249.png"><br>
 <br>
 
 <h1>ログイン</h1>
