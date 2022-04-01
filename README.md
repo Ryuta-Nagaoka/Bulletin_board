@@ -22,15 +22,18 @@
 <br>
 
 <h1>入力内容の確認</h1>
-<h3>確認画面には入力した内容をが表示され、確認するボタンを押すとデータベースに会員情報が保存されます。そして完了画面が表示されます。/h3>
-<img width="800" alt="掲示版2"　src="https://user-images.githubusercontent.com/97508941/159472212-9b6a2ce2-1caa-4ba2-a150-dcf636eb7249.png"><br>
+<h3>確認画面には入力した内容をが表示されます。そして確認するボタンを押すとデータベースに会員情報が保存され、完了画面が表示されます。</h3>
+<img width="800" alt="スクリーンショット 2022-04-01 18 01 00" src="https://user-images.githubusercontent.com/97508941/161231599-87c50e54-0e82-44af-a0f3-22de3b6e5e29.png">
+<img width="800" alt="スクリーンショット 2022-04-01 17 37 03" src="https://user-images.githubusercontent.com/97508941/161227362-be22d82e-a845-4246-a42c-bd6bc037eed6.png">
 <br>
 
 <h1>ログイン</h1>
+<h3>入力したメールアドレスとパスワードが一致するとログインでき投稿画面が表示されます。</h3>
 <img width="800" alt="掲示版3" src="https://user-images.githubusercontent.com/97508941/159472237-a07eb22a-1333-4920-a6dc-94af7d1cc790.png"><br>
 <br>
 
 <h1>投稿</h1>
+<h3>テキストエリアにコメントを入力し投稿すると投稿エリアに投稿された内容がその都度表示されていきます。</h3>
 <img width="800" alt="スクリーンショット 2022-03-22 20 39 18" src="https://user-images.githubusercontent.com/97508941/159473949-67b5fd78-ad2a-45ad-99bc-e14022472c4f.png">
 <br>
 
@@ -45,7 +48,7 @@
 
 <h1>工夫したポイント</h1>
 <h3>
-  検索した内容だけでなく件数も表示したかったので検索のSQLと件数カウントのSQLを分けて先に（index.phpで)件数のカウントを行いその結果をセッションで(seach.phpに)表示するよう   にしました。
+  検索した内容だけでなく件数も表示したかったので検索のSQLと件数カウントのSQLを分けて先に（index.phpで)件数のカウントを行いその結果をセッションで送り(seach.phpに)表示するようにしました。
 </h3>
 
 index.php
